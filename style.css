@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* font-family: "Merriweather", serif;
+font-family: "Inter", serif */
+
+header{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.banner{
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(./assets/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 300px 0;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.banner h4{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: "Merriweather", serif;
+}
+
+.banner h1{
+    font-family: "Merriweather", serif;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Discount section */
+
+.off{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.off h1{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", serif;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+}
+
+.off h5{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+.off h2{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 48px;
+}
+
+.off img{
+    width: 802.9px;
+    height: 500px;
+}
+
+
+/* Join Party Section */
+
+
+.join-party-sec{
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(./assets/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.party-flex{
+    padding: 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-left{
+    width: 50%;
+}
+
+.party-left h1{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+}
+.party-left p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", serif
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.party-left button{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    color: rgb(255, 255, 255);
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.party-right{
+    width: 50%;
+    text-align: end;
+}
+
+
+/* Time Section */
+
+.date-sec{
+    width: 85%;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.date-sec h2{
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.date-sec span{
+    color: rgb(255, 0, 0);
+}
+
+.date-sec > button{
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    background: rgb(255, 0, 0);
+    border: none;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+
+/* coming soon section */
+
+.coming-soon-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    gap: 7%;
+    margin-bottom: 120px;
+}
+
+.cs-left{
+    width: 31%;
+}
+
+.cs-left h3{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.cs-left h2{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 22px 0;
+}
+
+.cs-left p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.cs-middle{
+    width: 31%;
+    text-align: center;
+}
+
+.img-border{
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-border img{
+    padding: 30px;
+}
+.cs-right{
+    width: 31%;
+}
+
+.cs-right h2{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.cs-right p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px 0;
+}
